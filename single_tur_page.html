@@ -1,0 +1,107 @@
+<!-- single_tur_page -->
+
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Film Detayı</title>
+    <link rel="stylesheet" href="/css/main.css" />
+</head>
+
+<body>
+    <!-- Header start -->
+    <header class="header">
+        <div class="header-row">
+            <div class="container">
+                <div class="header-wrapper">
+                    <div class="header-mobile">
+                        <i class="bi bi-list" id="btn-menu"></i>
+                    </div>
+                    <div class="header-left">
+                        <a href="index.html" class="baslik">Film İncelemesi</a>
+                    </div>
+                    <div class="header-center" id="sidebar">
+                        <nav class="navigation">
+                            <ul class="menu-list">
+                                <li class="menu-list-item">
+                                    <a href="#" class="menu-link">Türler
+                                        <i class="bi bi-chevron-down"></i></a>
+                                    <div class="menu-dropdown-wrapper">
+                                        <ul class="menu-dropdown-content" id="menu-dropdown-content">
+                                            <!-- JavaScript ile dinamik olarak doldurulacak -->
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="filmler.html" class="menu-link">Filmler</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="contact.html" class="menu-link">İletişim</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <i class="bi-x-circle" id="close-sidebar"></i>
+                    </div>
+                    <div class="header-right">
+                        <div class="header-right-links">
+                            <a href="account.html" class="header-account">
+                                <i class="bi bi-person"></i>
+                            </a>
+                            <button class="search-button">
+                                <i class="bi bi-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+
+    <!-- Modal Search Start -->
+    <div class="modal-search">
+        <div class="modal-wrapper">
+            <h3 class="modal-title">Film Arayın</h3>
+            <form class="search-form" onsubmit="searchMovies(event)">
+                <input type="text" placeholder="Film Arayın" id="searchInput" />
+                <button type="submit">
+                    <i class="bi bi-search"></i>
+                </button>
+            </form>
+            <div class="search-result" id="searchResult">
+                <div class="search-heading">
+                    <h3>Film Sonuçları</h3>
+                </div>
+            </div>
+            <i class="bi bi-x-circle" id="close-search"></i>
+        </div>
+    </div>
+    <!-- Modal Search End -->
+
+
+    <!-- Film Detay Start -->
+    <section class="film">
+        <div class="container">
+            <div class="section-title">
+                <h2 id="tur"></h2>
+            </div>
+            <div class="film-wrapper">
+                <ul class="film-list" id="film-list">
+                    <!-- Filmler buraya JavaScript ile eklenecek -->
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Film Detay End -->
+
+    <script src="/js/index.js"></script>
+    <script src="/js/film.js"></script>
+    <script src="/js/tur.js"></script>
+    <script src="/js/single_tur_page.js"></script>
+
+</body>
+
+</html>

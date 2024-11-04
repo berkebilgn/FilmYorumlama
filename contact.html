@@ -1,0 +1,158 @@
+<!-- contact.html -->
+
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İletişim</title>
+
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+    <!-- Header start -->
+    <header class="header">
+        <div class="header-row">
+            <div class="container">
+                <div class="header-wrapper">
+                    <div class="header-mobile">
+                        <i class="bi bi-list" id="btn-menu"></i>
+                    </div>
+                    <div class="header-left">
+                        <a href="index.html" class="baslik">Film İncelemesi</a>
+                    </div>
+                    <div class="header-center" id="sidebar">
+                        <nav class="navigation">
+                            <ul class="menu-list">
+                                <li class="menu-list-item">
+                                    <a href="#" class="menu-link">Türler
+                                        <i class="bi bi-chevron-down"></i></a>
+                                    <div class="menu-dropdown-wrapper">
+                                        <ul class="menu-dropdown-content" id="menu-dropdown-content">
+                                            <!-- JavaScript ile dinamik olarak doldurulacak -->
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="filmler.html" class="menu-link">Filmler</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="contact.html" class="menu-link">İletişim</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <i class="bi-x-circle" id="close-sidebar"></i>
+                    </div>
+                    <div class="header-right">
+                        <div class="header-right-links">
+                            <a href="account.html" class="header-account">
+                                <i class="bi bi-person"></i>
+                            </a>
+                            <button class="search-button">
+                                <i class="bi bi-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+
+    <!-- Modal Search Start -->
+    <div class="modal-search">
+        <div class="modal-wrapper">
+            <h3 class="modal-title">Film Arayın</h3>
+            <form class="search-form" onsubmit="searchMovies(event)">
+                <input type="text" placeholder="Film Arayın" id="searchInput" />
+                <button type="submit">
+                    <i class="bi bi-search"></i>
+                </button>
+            </form>
+            <div class="search-result" id="searchResult">
+                <div class="search-heading">
+                    <h3>Film Sonuçları</h3>
+                </div>
+            </div>
+            <i class="bi bi-x-circle" id="close-search"></i>
+        </div>
+    </div>
+    <!-- Modal Search End -->
+
+
+    <!-- Contact Start -->
+    <section class="contact">
+        <div class="contact-top">
+            <div class="contact-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2987.563970698183!2d36.106832376081165!3d41.51372288814931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4087df5a9652e01b%3A0xd8b189e80530c991!2sSamsun%20%C3%9Cniversitesi!5e0!3m2!1str!2str!4v1689335697578!5m2!1str!2str"
+                    width="90%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="contact-bottom ">
+            <div class="continer">
+                <div class="contact-titles">
+                    <h2>Bize Ulaşın</h2>
+                </div>
+                <div class="contact-elements">
+                    <form class="contact-form">
+                        <div class="">
+                            <label>
+                                Adınız
+                                <span>*</span>
+                            </label>
+                            <input type="text" required>
+                        </div>
+
+                        <div class="">
+                            <label>
+                                Soyadınız
+                                <span>*</span>
+                            </label>
+                            <input type="text" required>
+                        </div>
+
+                        <div class="">
+                            <label>
+                                E-Mail
+                                <span>*</span>
+                            </label>
+                            <input type="email" required>
+                        </div>
+
+                        <div class="">
+                            <label>
+                                Mesajınız
+                                <span>*</span>
+                            </label>
+                            <textarea id="author" name="author" type="text" value="" size="30" required=""></textarea>
+                        </div>
+                        <button class="btn btn-sm">Mesaj Gönder</button>
+                    </form>
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <div class="contact-info-texts">
+                                <strong> Samsun Üniversitesi</strong>
+                                <p class="contact-street">
+                                    İstiklal Mahallesi Tekel Cad, Ballıca Kampüsü No:2, 55000 Ondokuzmayıs/Samsun</p>
+                                <a href="Telefon: 0505 715 0074">Telefon: 0505 715 0074</a><br>
+                                <a href="E-Mail: bilgin_217@hotmail.com">E-Mail: bilgin_217@hotmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact End -->
+
+    <script src="/js/index.js"></script>
+    <script src="js/tur.js"></script>
+
+</body>
+
+</html>

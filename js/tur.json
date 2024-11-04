@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "tur": "Aksiyon"
+    },
+    {
+        "id": 2,
+        "tur": "Animasyon"
+    },
+    {
+        "id": 3,
+        "tur": "Bilim Kurgu"
+    },
+    {
+        "id": 4,
+        "tur": "Dram"
+    },
+    {
+        "id": 5,
+        "tur": "Komedi"
+    },
+    {
+        "id": 6,
+        "tur": "Korku"
+    },
+    {
+        "id": 7,
+        "tur": "Romantik"
+    },
+    {
+        "id": 8,
+        "tur": "Savaş"
+    },
+    {
+        "id": 9,
+        "tur": "Western"
+    }
+]

@@ -1,0 +1,10 @@
+.single-film .film-gallery {
+    width: 50%;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-film .single-image-wrapper img {
+    width: 90%;
+}

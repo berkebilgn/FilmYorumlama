@@ -1,0 +1,215 @@
+<!-- single_page.html -->
+
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Film Detayı</title>
+
+    <link rel="stylesheet" href="/css/main.css" />
+</head>
+
+<body>
+    <!-- Header start -->
+    <header class="header">
+        <div class="header-row">
+            <div class="container">
+                <div class="header-wrapper">
+                    <div class="header-mobile">
+                        <i class="bi bi-list" id="btn-menu"></i>
+                    </div>
+                    <div class="header-left">
+                        <a href="index.html" class="baslik">Film İncelemesi</a>
+                    </div>
+                    <div class="header-center" id="sidebar">
+                        <nav class="navigation">
+                            <ul class="menu-list">
+                                <li class="menu-list-item">
+                                    <a href="#" class="menu-link">Türler
+                                        <i class="bi bi-chevron-down"></i></a>
+                                    <div class="menu-dropdown-wrapper">
+                                        <ul class="menu-dropdown-content" id="menu-dropdown-content">
+                                            <!-- JavaScript ile dinamik olarak doldurulacak -->
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="filmler.html" class="menu-link">Filmler</a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="contact.html" class="menu-link">İletişim</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <i class="bi-x-circle" id="close-sidebar"></i>
+                    </div>
+                    <div class="header-right">
+                        <div class="header-right-links">
+                            <a href="account.html" class="header-account">
+                                <i class="bi bi-person"></i>
+                            </a>
+                            <button class="search-button">
+                                <i class="bi bi-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+
+    <!-- Modal Search Start -->
+    <div class="modal-search">
+        <div class="modal-wrapper">
+            <h3 class="modal-title">Film Arayın</h3>
+            <form class="search-form" onsubmit="searchMovies(event)">
+                <input type="text" placeholder="Film Arayın" id="searchInput" />
+                <button type="submit">
+                    <i class="bi bi-search"></i>
+                </button>
+            </form>
+            <div class="search-result" id="searchResult">
+                <div class="search-heading">
+                    <h3>Film Sonuçları</h3>
+                </div>
+            </div>
+            <i class="bi bi-x-circle" id="close-search"></i>
+        </div>
+    </div>
+    <!-- Modal Search End -->
+
+
+    <!-- Single Film Start -->
+    <section class="single-film">
+        <div class="container">
+            <div class="single-film-wrapper">
+
+                <!-- Breadcrumb Start -->
+                <div class="single-topbar">
+                    <nav class="breadcrumb">
+                        <ul>
+                            <li><a href="/filmler.html">Filmler</a></li>
+                            <li><a href="#" id="single_tur_page"></a></li>
+                            <li id="film-adi"></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- Breadcrumb End -->
+
+                <!-- Site Main Start -->
+                <div class="single-content">
+                    <main class="site-main">
+                        <div class="film-gallery">
+                            <div class="single-image-wrapper">
+                                <img src="" alt="" id="film-gorsel">
+                            </div>
+                        </div>
+                        <div class="film-info">
+                            <h1 class="film-title" id="film-baslik"></h1>
+                            <div class="film-description">
+                                <p id="film-tur">Tür: </p>
+                                <p id="film-yil">Yapım Yılı: </p>
+                                <p id="film-yonetmen">Yönetmen: </p>
+                                <p id="film-oyuncular">Oyuncular:</p>
+                                <br>
+                                <p id="film-ozet">Özet:</p>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+                <!-- Site Main End -->
+
+
+                <!-- Tab Start -->
+                <div class="single-tab">
+                    <h2>Yorumlar</h2>
+                    <div class="tab-reviews">
+                        <ol class="comment-list" id="comment-list">
+                            <!-- Yorumlar buraya dinamik olarak eklenecek -->
+                        </ol>
+
+                        <!-- Comment Form Start -->
+                        <div class="review-form-wrapper">
+                            <h3>Yorum Ekle</h3>
+                            <form class="comment-form" id="comment-form">
+                                <div class="comment-form-rating">
+                                    <label>
+                                        Puanınız
+                                        <span class="required">*</span>
+                                    </label>
+                                    <div class="stars" id="stars">
+                                        <a href="#" class="star" data-value="1">
+                                            <i class="bi bi-star-fill"></i>
+                                        </a>
+                                        <a href="#" class="star" data-value="2">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </a>
+                                        <a href="#" class="star" data-value="3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </a>
+                                        <a href="#" class="star" data-value="4">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </a>
+                                        <a href="#" class="star" data-value="5">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="comment-form-author form-comment">
+                                    <label for="name">
+                                        Adınız
+                                        <span class="required">*</span>
+                                    </label>
+                                    <input id="name" type="text" required>
+                                </div>
+                                <div class="comment-form-email form-comment">
+                                    <label for="email">
+                                        E-posta
+                                        <span class="required">*</span>
+                                    </label>
+                                    <input id="email" type="email" required>
+                                </div>
+                                <div class="comment-form-comment form-comment">
+                                    <label for="comment">
+                                        Yorumunuz
+                                        <span class="required">*</span>
+                                    </label>
+                                    <textarea id="comment" cols="50" rows="10" required></textarea>
+                                </div>
+                                <div class="form-submit">
+                                    <button type="submit" class="btn submit">Gönder</button>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- Comment Form End -->
+
+                    </div>
+                </div>
+                <!-- Tab End -->
+            </div>
+        </div>
+    </section>
+    <!-- Single Film End -->
+
+    <script src="/js/index.js"></script>
+    <script src="/js/film.js"></script>
+    <script src="/js/tur.js"></script>
+    <script src="/js/single_page.js"></script>
+
+</body>
+
+</html>

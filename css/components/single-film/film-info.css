@@ -1,0 +1,24 @@
+.site-main .film-info {
+    width: 75%;
+    padding: 0 15px;
+}
+
+.site-main .film-title {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.site-main .film-description {
+    font-size: 19px;
+    line-height: 1.4;
+    margin: 15px 0;
+}
+
+
+.site-main .film-meta {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+  margin-top: 20px;
+  font-size: 18px;
+}

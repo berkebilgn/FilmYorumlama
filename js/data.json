@@ -1,0 +1,322 @@
+[
+    {
+        "id": 1,
+        "name": "Örümcek Adam",
+        "tur": "Aksiyon",
+        "img": "/images/orumcek_adam.png",
+        "year": "2021",
+        "director": "Jon Watts",
+        "players": "Tom Holland, Zendaya, Benedict Cumberbatch",
+        "description": "Peter Parker, Orm adlı su altı dünyasının hükümdarıyla karşı karşıya gelirken, dünyayı yok edebilecek tehlikeli bir gücü engellemek için mücadele eder. Orm, elementleri kontrol edebilen bir kötü adamdır ve Peter'ın en büyük düşmanlarından biridir. Örümcek Adam, kendisiyle yüzleşirken, sevdiklerini korumak ve dünyayı kurtarmak için zorlu kararlar vermek zorunda kalır. Görsel efektlerle dolu heyecanlı sahnelerle dolu bu film, seyirciyi soluksuz bırakacak bir macera sunar."
+    },
+    {
+        "id": 2,
+        "name": "Kara Şovalye",
+        "tur": "Aksiyon",
+        "img": "/images/kara_sovalye.png",
+        "year": "2008",
+        "director": "Christopher Nolan",
+        "players": "Christian Bale, Heath Ledger, Aaron Eckhart, Maggie Gyllenhaal, Morgan Freeman",
+        "description": "Gotham Şehri'ni terörize eden Joker'in kaosunu ve Batman'in onunla mücadelesini anlatıyor. Joker'in korkunç planlarına karşı Batman ve Savcı Harvey Dent birlikte çalışır, ancak Joker'in psikolojik oyunlarına direnmek zorundadırlar. Harvey Dent'in dönüşümü ve Gotham'ın kaderi için kahramanlık, fedakarlık ve zorlu kararlar gereken unutulmaz bir aksiyon-dram filmi."
+    },
+    {
+        "id": 3,
+        "name": "Esaretin Bedeli",
+        "tur": "Dram",
+        "img": "/images/esaretin_bedeli.png",
+        "year": "1994",
+        "director": "Frank Darabont",
+        "players": "Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler, Clancy Brown, Gil Bellows",
+        "description": "Haksız yere cinayet suçlamasıyla hapse mahkum edilen Andy Dufresne'in hikayesini anlatır. Shawshank Hapishanesi'nde arkadaşı Red ile dostluk kurar ve içeride hayata bağlanır. Andy, adaletsizliklere karşı direnerek hapishanenin içinde umut ve insanlık arayışına girer. Zamanla adaleti ve özgürlüğü yeniden kazanmak için planlar yapar. Dokunaklı hikayesi ve güçlü performanslarıyla izleyiciyi derinden etkiler."
+    },
+    {
+        "id": 4,
+        "name": "The Godfather",
+        "tur": "Dram",
+        "img": "/images/godfather.png",
+        "year": "1972",
+        "director": "Francis Ford Coppola",
+        "players": "Al Pacino, Marlon Brando, James Caan, Diane Keaton, Robert De, Talia Shire",
+        "description": "Vito Corleone, ailesinin suç imparatorluğunu yöneten güçlü bir mafya lideridir. Ancak, oğlu Michael, aile işlerinden uzak durmaya çalışır. Ancak, ailenin düşmanları ve iç çatışmalar, Michael'ı suç dünyasının içine çeker. İhanetler, sadakat ve aile bağlarının etrafında şekillenen unutulmaz bir suç dramasıdır."
+    },
+    {
+        "id": 5,
+        "name": "Lucy",
+        "tur": "Bilim Kurgu",
+        "img": "/images/lucy.png",
+        "year": "2014",
+        "director": "Luc Besson",
+        "players": "Scarlett Johansson, Morgan Freeman, Amr Waked, Min-sik Choi",
+        "description": "Lucy, uyuşturucu kaçakçıları tarafından vücuduna zorla enhanced bir madde yerleştirilince, beyninin kullanımı giderek artar ve süper insan güçlerine dönüşür. Zamanla algısı ve becerileri olağanüstü boyutlara ulaşırken, hızla değişen bir varlık haline gelir. Hedefi, kaçakçıları durdurmak ve varoluşun sırrını keşfetmektir. Scarlett Johansson'un performansı ve etkileyici görsel efektlerle dolu bir film."
+    },
+    {
+        "id": 6,
+        "name": "Yeşil Yol",
+        "tur": "Dram",
+        "img": "/images/yesil_yol.png",
+        "year": "1999",
+        "director": "Frank Darabont",
+        "players": "Michael Clarke Duncan, Tom Hanks, David Morse, Bonnie Hunt, Gary Sinise, James Cromwell",
+        "description": "Paul Edgecomb, ölüm hücrelerinde çalışan bir gardiyan olarak hüküm giyen mahkumların arasında, cinayet suçundan hüküm giymiş zihinsel engelli John Coffey ile karşılaşır. John'un sahip olduğu gizemli güçler ve insanlık dolu hikayesi, gardiyanı derinden etkiler ve dramatik bir bağ kurar. Unutulmaz bir hikaye, adalet, iyilik ve insan doğasını işleyen dokunaklı bir yapımdır."
+    },
+    {
+        "id": 7,
+        "name": "Prestij",
+        "tur": "Bilim Kurgu",
+        "img": "/images/prestij.png",
+        "year": "2006",
+        "director": "Christopher Nolan",
+        "players": "Christian Bale, Hugh Jackman, Christian Bale, Michael Caine",
+        "description": "İki sihirbaz, sahne numaralarıyla birbirlerini geride bırakmak için hırslı bir rekabete girer. Ancak bu yarış, gittikçe tehlikeli bir hal alır ve sihirbazlar etik ve ahlaki sınırları zorlamaya başlar. Zekice kurgulanmış, akıllara durgunluk veren bir hikaye, izleyicileri sürprizlerle dolu büyülü bir dünyaya çeker."
+    },
+    {
+        "id": 8,
+        "name": "İyi Kötü Çirkin",
+        "tur": "Western",
+        "img": "/images/iyi_kotu_cirkin.png",
+        "year": "1966",
+        "director": "Sergio Leone",
+        "players": "Clint Eastwood, Eli Wallach, Lee Van Cleef",
+        "description": "Acımasız bir Altın Avcısı'nın, sadık bir kaçakçının ve acımasız bir suçlunun hazine avı için kaderlerinin kesiştiği epik bir Batı kovboy filmidir. Film, ölümcül bir üçlünün birlikte çalışmak zorunda kaldığı tehlikeli maceralarını, ihanetleri ve beklenmedik dostlukları vurguluyor. İçinde bulundukları savaşın ortasında, her biri kendi çıkarları için birbirleriyle yarışırken, sonunda hazineye ulaşmak için zorlu bir yarışa giriyorlar."
+    },
+    {
+        "id": 9,
+        "name": "John Wick",
+        "tur": "Aksiyon",
+        "img": "/images/john_wick.png",
+        "year": "2014",
+        "director": "Chad Stahelski",
+        "players": "Keanu Reeves, Michael Nyqvist, Alfie Allen, Willem Dafoe, Adrianne Palicki",
+        "description": "Emekli bir tetikçi olan efsanevi bir suikastçının intikam hikayesini anlatıyor. Kötü niyetli bir mafya figürü, John'un değerli bir anı olarak gördüğü köpeğini öldürerek öfkesini tetikler. John, acımasız bir intikam yolculuğuna başlar, mafya dünyasını darmadağın ederken ustalıkla dövüşür ve unutulmaz aksiyon sahneleriyle dolu bir maceraya atılır."
+    },
+    {
+        "id": 10,
+        "name": "Yukarı Bak",
+        "tur": "Animasyon",
+        "img": "/images/yukari_bak.png",
+        "year": "2009",
+        "director": "Pete Docter, Bob Peterson",
+        "players": "Erol Günaydın",
+        "description": "Yaşlı balon satıcısı Carl Fredricksen, hayatını bir kez daha anlamlandırmak için evini balonlarla uçurarak Güney Amerika'ya doğru bir maceraya atılır. Ancak küçük bir sürprizle, yolda genç bir kaşif olan Russell ile karşılaşır. İkisi, yaban hayatı ve tehlikelerle dolu unutulmaz bir keşif yolculuğuna çıkarlar. Eğlenceli ve duygusal bir animasyon filmidir."
+    },
+    {
+        "id": 11,
+        "name": "Ratatouill",
+        "tur": "Animasyon",
+        "img": "/images/ratatouill.png",
+        "year": "2007",
+        "director": "Brad Bird, Jan Pinkava",
+        "players": "Toprak Sergen, Engin Alkan",
+        "description": "Remy, Paris'te bir restoranda yaşayan bir fare ve mutfak sanatçısıdır. Gurme olma tutkusunu gerçekleştirmek için gizlice insanların dünyasına girer ve genç şef Linguini ile dost olur. Birlikte eşsiz bir yemek serüvenine atılırlar, Remy'nin mutfak yetenekleri ile ortak bir hedefe ulaşarak hayalini gerçekleştirmeye çalışırlar. Eğlenceli, duygusal ve lezzetli bir animasyon filmi."
+    },
+    {
+        "id": 12,
+        "name": "Kayıp Balık Nemo",
+        "tur": "Animasyon",
+        "img": "/images/kayip_balik_nemo.png",
+        "year": "2013",
+        "director": "Andrew Stanton, Lee Unkrich",
+        "players": "Brad Garrett, Eric Bana, Willem Dafoe, Ellen DeGeneres",
+        "description": "Marlin adında bir balığın, kaybolan oğlu Nemo'yu bulma macerasını konu ediniyor. Nemo, okyanusun derinliklerinde bir akvaryuma düşer ve Marlin, onu kurtarmak için cesurca yola çıkar. Yolda, unutkan mavi tang balığı Dory ile tanışır ve birlikte komik ve duygusal anlar yaşarlar. Babanın sevgisi ve kararlılığı, unutulmaz bir serüvene dönüşür."
+    },
+    {
+        "id": 13,
+        "name": "Sevimli Canavarlar",
+        "tur": "Animasyon",
+        "img": "/images/sevimli_canavarlar.png",
+        "year": "2001",
+        "director": "David Silverman , Pete Docter",
+        "players": "Bob Peterson, John Goodman, Billy Crystal, Mary ",
+        "description": "Canavarlar Şirketi, çocukların korkularını toplayarak enerji elde eder. Sully ve Mike adlı canavarlar, korkutucu ama sevimli bir çocuk olan Boo'yu yanlışlıkla canavar dünyasına getirirler. Boo'yu güvende tutmak için Macera ve komedi dolu, duygusal bir hikaye sunar. Pixar'ın unutulmaz yapımlarından biri."
+    },
+    {
+        "id": 14,
+        "name": "Yerçekimi",
+        "tur": "Bilim Kurgu",
+        "img": "/images/yercekimi.png",
+        "year": "2013",
+        "director": "Alfonso Cuarón",
+        "players": "George Clooney, Sandra Bullock",
+        "description": "Astronotlar Ryan Stone ve Matt Kowalski, uzayda rutin bir görev yaparken, yörüngedeki bir felaketle karşılaşırlar. Uzay enkazının içinde mahsur kalan Ryan, hayatta kalma mücadelesi verirken, dünyadan uzakta yalnızlıkla yüzleşir. Tek başına büyük bir zorlukla başa çıkmaya çalışırken, inanılmaz görsel efektlerle dolu gerilim dolu bir hikaye sunar. Sandra Bullock ve George Clooney'nin performanslarıyla dikkat çeken unutulmaz bir yapımdır."
+    },
+    {
+        "id": 15,
+        "name": "Karanlık Zihinler",
+        "tur": "Bilim Kurgu",
+        "img": "/images/karanlik_zihinler.png",
+        "year": "2018",
+        "director": "Jennifer Yuh Nelson",
+        "players": "Amandla Stenberg, Mandy Moore, Gwendoline Christie, Harris Dickinson, Skylan Brooks",
+        "description": "Gençlerin virüs salgını sonucu gelişen güçlü telekinetik yeteneklerle doğduğu bir distopya dünyasını anlatıyor. Ruby, özel bir kampa gönderilir ve orada diğer gençlerle kaçmaya çalışırken güçlerini kontrol etmeyi öğrenir. Onun liderliğindeki bir grup, hayatta kalma mücadelesi verirken aynı zamanda topluma uyum sağlama çabaları içindedir."
+    },
+    {
+        "id": 16,
+        "name": "Babil",
+        "tur": "Dram",
+        "img": "/images/babil.png",
+        "year": "2022",
+        "director": "Damien Chazelle",
+        "players": "Brad Pitt, Margot Robbie, Diego Calva, Jean Smart, Jovan Adepo, Li Jun Li",
+        "description": "Film, Los Angeles'ta hayallerini gerçekleştirmek için çaba sarf eden bir müzisyen olan Sebastian ve bir aktris olan Mia'nın hikayesini anlatır. İkisi, müzik ve sanatla dolu bir aşk yaşar ve tutkularını takip ederken kendi kariyerlerini inşa etmeye çalışırlar. Ancak başarı ve aşk arasında zorlu kararlarla karşı karşıya kalırlar. Film, müzikal sahneleri, görsel estetiği ve oyunculuk performanslarıyla öne çıkarak unutulmaz bir duygusal yolculuk sunar."
+    },
+    {
+        "id": 17,
+        "name": "Bir Zamanlar",
+        "tur": "Dram",
+        "img": "/images/bir_zamanlar.png",
+        "year": "2019",
+        "director": "Quentin Tarantino",
+        "players": "Brad Pitt, Margot Robbie, Leonardo DiCaprio, Emile Hirsch, Margaret Qualley, Julia Butters",
+        "description": "Film, 1969'da Hollywood'da geçer ve oyuncu Rick Dalton ile onun dublörü ve en iyi arkadaşı Cliff Booth'un hikayesini anlatır. Şöhretinin solgunlaştığı bir dönemde olan Rick, komşuları Sharon Tate'in ünlü cinayetleriyle de karşı karşıya kalır. Film, nostaljik bir atmosferle 1960'ların Hollywood'una bir saygı duruşu yapar ve sürpriz dolu bir finale sahiptir. Olağanüstü oyunculuklar ve Tarantino'nun karakteristik tarzıyla dolu bir sinematik deneyim sunar."
+    },
+    {
+        "id": 18,
+        "name": "Recep İvedik 6",
+        "tur": "Komedi",
+        "img": "/images/recep_ivedik_6.png",
+        "year": "2019",
+        "director": "Togan Gökbakar",
+        "players": "Şahan Gökbakar, Nurullah Çelebi, Somer Karvan",
+        "description": "Recep İvedik, amcasının evine misafir olarak gitmek isteyen bir çocuğa yardım eder. Ancak yolda beklenmedik bir şekilde Macaristan'a giderler. Orada, çocuğun futbol hayalini gerçekleştirmek için bir dizi komik olay yaşarlar. Recep'in komik karakteri ve eğlenceli maceraları izleyicilere keyifli bir deneyim sunar."
+    },
+    {
+        "id": 19,
+        "name": "Kayhan",
+        "tur": "Komedi",
+        "img": "/images/kayhan.png",
+        "year": "2018",
+        "director": "Togan Gökbakar",
+        "players": "Şahan Gökbakar, İrfan Kangı, Gökçe Eyüboğlu",
+        "description": "Sıradan bir muhasebecinin beklenmedik şekilde hayatının karmaşıklaştığı komik bir hikayeyi konu alıyor. Kayhan, kendi dünyasında sıkışıp kalırken, bir anda büyülü ve absürt olaylarla dolu bir yolculuğa çıkar. Tuhaf karakterlerle karşılaşırken, olayların gittikçe komikleştiği bu filmde, izleyiciyi gülmekten kırıp geçiren eğlenceli anlar bekliyor."
+    },
+    {
+        "id": 20,
+        "name": "Osman Pazarlama",
+        "tur": "Komedi",
+        "img": "/images/osman_pazarlama.png",
+        "year": "2016",
+        "director": "Togan Gökbakar",
+        "players": "Şahan Gökbakar, Selim Akgül, Liberat Niyoyandika, Şükran Çağman, Tahsin Yıldırım",
+        "description": "Osman, Tekirdağ'ın küçük bir kasabasında yaşayan saf ve iyi niyetli bir pazarcıdır. Bir gün, gönlünü kazanmak için şehirli bir kıza havalı bir iş sahibi olduğunu söyler ve sahte bir iş yaratmaya başlar. Bu yalan dolu macera, Osman'ın komik ve tuhaf durumlarla karşılaştığı eğlenceli bir hikayeye dönüşür."
+    },
+    {
+        "id": 21,
+        "name": "AROG",
+        "tur": "Komedi",
+        "img": "/images/arog.png",
+        "year": "2008",
+        "director": "Cem Yılmaz, Ali Taner Baltacı",
+        "players": "Cem Yılmaz, Özge Özberk, Charles Carroll, Özkan Uğur, Hasan Kaçan",
+        "description": "Dünyanın en kötü öğretmeni Arif'in tarihi bir kazanın ardından zaman makinesiyle tarih öncesi döneme gitmesini ve orada maceralar yaşamasını konu alır. Arif, dinazorlarla, tarih öncesi insanlarla ve tuhaf yaratıklarla dolu bu dünyada hayatta kalmak için zorlu mücadeleler verir. Eğlenceli ve absürt olayların yer aldığı film, seyirciyi kahkahalara boğan bir komedi deneyimi sunar."
+    },
+    {
+        "id": 22,
+        "name": "Şeytan Kapanı",
+        "tur": "Korku",
+        "img": "/images/seytan_kapani.png",
+        "year": "2022",
+        "director": "Daniel Stamm",
+        "players": "Jacqueline Byers, Virginia Madsen, Colin Salmon, Nicholas Ralph, Tom Forbes",
+        "description": "Regan adında küçük bir kız, tuhaf davranışlar sergilemeye başlar ve şeytani bir varlık tarafından ele geçirilmiş olduğu düşünülür. Katolik rahip Damien Karras, ona yardım etmek için şeytan çıkarma törenine katılır. Korkunç olaylar ve karanlık sırlarla dolu, efsanevi bir korku klasiği."
+    },
+    {
+        "id": 23,
+        "name": "Gülümse",
+        "tur": "Korku",
+        "img": "/images/gulumse.png",
+        "year": "2022",
+        "director": "Parker Finn",
+        "players": "Sosie Bacon, Kyle Gallner, Caitlin Stasey",
+        "description": "Film, genç ve karizmatik bir fotoğrafçı olan Alex'in, hayat dolu ve umutlu bir genç kız olan Sara ile tanışmasını konu alıyor. Alex'in kariyeri ve Sara ile olan ilişkisi arasında yaşadığı zorlu denge, duygusal bir yolculuğa dönüşür. İkilinin birlikte geçirdiği anlar, hayatın güzelliklerini keşfetmelerine ve gerçek aşkın gücünü anlamalarına yardımcı olur. Gülümse, duygusal ve içten bir hikayesiyle izleyicilere ilham veriyor."
+    },
+    {
+        "id": 24,
+        "name": "Saklambaç",
+        "tur": "Korku",
+        "img": "/images/saklambac.png",
+        "year": "2019",
+        "director": "Matt Bettinelli-Olpin, Tyler Gillett",
+        "players": "Samara Weaving, Adam Brody, Mark O'Brien, Henry Czerny, Andie MacDowell",
+        "description": "Genç gelin Grace, zengin ve gizemli bir ailenin üyesi olduğunu fark eder. Düğün gecesi, ailenin geleneksel bir oyunu olan saklambaçı oynamak zorunda kalır. Ancak bu oyun, hayatta kalmak için mücadele etmek zorunda olduğu kanlı ve şaşırtıcı bir kâbusa dönüşür. Eğlenceli ve gerilim dolu bir kara mizah örneği."
+    },
+    {
+        "id": 25,
+        "name": "Görünmez Adam",
+        "tur": "Korku",
+        "img": "/images/gorunmez_adam.png",
+        "year": "2020",
+        "director": "Leigh Whannell",
+        "players": "Elisabeth Moss, Oliver Jackson-Cohen, Harriet Dyer",
+        "description": "Film, eski sevgilisi tarafından taciz edilen ve intihar ettiğine inanılan Cecilia'nın hayatını konu alıyor. Ancak Cecilia, eski sevgilisinin intiharından sonra onu rahatsız eden görünmez bir varlık tarafından takip edildiğini fark eder. Herkes onun deli olduğunu düşünürken, Cecilia gerçekleri ortaya çıkarmak ve görünmez düşmanıyla savaşmak zorundadır. Paranoid ve gerilim dolu sahnelerle izleyicileri kendine çeken bu film, gizemli ve heyecan dolu bir deneyim sunuyor."
+    },
+    {
+        "id": 26,
+        "name": "Penceremden",
+        "tur": "Romantik",
+        "img": "/images/penceremden.png",
+        "year": "2022",
+        "director": "Marçal Forès",
+        "players": "Julio Peña, Clara Galle, Pilar Castro",
+        "description": "Genç bir çiftin, ormanda geçen sıradışı aşk hikayesini konu alır. Doğanın güzellikleri içindeki romantizm ve duygusal bağlar, ilişkilerini büyütürken zorluklarla da yüzleşmelerine neden olur. Oyuncuların etkileyici performansları, izleyiciyi romantik ve büyülü bir atmosfere çekiyor. Marçal Forès'in yönetmenliğinde romantik bir yolculuğa davet ediyor."
+    },
+    {
+        "id": 27,
+        "name": "Geçen Yaz",
+        "tur": "Romantik",
+        "img": "/images/gecen_yaz.png",
+        "year": "2021",
+        "director": "Ozan Açıktan",
+        "players": "Fatih Şahin, Ece Çeşmioğlu, Halit Özgür Sarı",
+        "description": "Film, platonik aşkın ve geçmişle yüzleşmenin hikayesini anlatır. Liseden mezun olan Deniz, eski arkadaş grubuyla yaz tatilini geçirmeye karar verir. Tatilde geçmişte yaşanan aşkı Baran ile yüzleşirler ve hayatlarının dönüm noktalarına gelirler. Geçmişle hesaplaşma ve duygusal karmaşalarla dolu bir yaz tatili deneyimiyle izleyiciyi etkileyici bir yolculuğa çıkarır."
+    },
+    {
+        "id": 28,
+        "name": "Mutluluk Zamanı",
+        "tur": "Romantik",
+        "img": "/images/mutluluk_zamani.png",
+        "year": "2017",
+        "director": "Şenol Sönmez",
+        "players": "Barış Arduç, Elçin Sangu, Cengiz Bozkurt",
+        "description": "Mühendis Neil, karısıyla ayrılır ve içine kapanık bir hayat yaşarken, komşusu Haley ile beklenmedik bir arkadaşlık kurar. Haley, Neil'e yaşamın güzelliklerini ve anlamını hatırlatırken, Neil de Haley'in umutlarına destek olur. Birlikte, hayatın iniş çıkışlarıyla dolu bir yolculuğa çıkarlar ve gerçek mutluluğu ararlar."
+    },
+    {
+        "id": 29,
+        "name": "Su ve Ateş",
+        "tur": "Romantik",
+        "img": "/images/su_ve_ates.png",
+        "year": "2013",
+        "director": "Özcan Deniz",
+        "players": "Özcan Deniz, Yasemin Allen, Burçin Birben",
+        "description": "Farklı sosyal sınıflardan gelen Zeynep ve Ali'nin yasak aşkını anlatır. Ailelerinin ve toplumun karşı çıkmasına rağmen, çift, tutkulu bir şekilde birbirlerine bağlanır ve aşklarını sınamak zorunda kalırlar. İkisinin de fedakarlık yapması gereken zorlu bir süreçte, duygusal ve dramatik anlar yaşanır. Özcan Deniz'in yönetmenliğinde, izleyicilere etkileyici bir aşk hikayesi sunar."
+    },
+    {
+        "id": 30,
+        "name": "Ölüler Vadisi",
+        "tur": "Savaş",
+        "img": "/images/oluler_vadisi.png",
+        "year": "2020",
+        "director": "Javier Ruiz Caldera, Alberto de Toro",
+        "players": "Aura Garrido, Miki Esparbé, Luis Callejo, Álvaro Cervantes, Jesús Carroza",
+        "description": "Şerif Royce'un adaleti sağlama çabalarını ve vahşi batının acımasız dünyasındaki mücadelesini anlatıyor. Şehirdeki suçluların ve çetelerin hüküm sürdüğü vahşi bir kasabada, Royce ve yardımcısı, adaleti sağlamak için güçlü ve tehlikeli bir suç lorduyla karşı karşıya gelirler. Efsanevi oyuncu kadrosu ve unutulmaz sahnelerle dolu epik bir Western klasiği."
+    },
+    {
+        "id": 31,
+        "name": "Savaşın Gölgeleri",
+        "tur": "Savaş",
+        "img": "/images/savasin_golgeleri.png",
+        "year": "2021",
+        "director": "Ole Bornedal",
+        "players": "Alex Høgh Andersen, Danica Curcic, Fanny Bornedal, Mads Riisom, Malene Beltoft Olsen",
+        "description": "II. Dünya Savaşı'nda geçen hikayede, kadın pilot Maude Garrett, gizli bir göreve atanır. Uçağın kargo bölümünde tek başına hedefine ilerlerken, içeride beklenmedik bir düşmanla karşılaşır. Hem düşman saldırısından hem de uçaktaki erkek mürettebatın tepkisinden hayatta kalmaya çalışırken gerilim dolu bir mücadele yaşar. Aksiyon dolu ve sürprizlerle dolu bir hikaye sunar."
+    },
+    {
+        "id": 32,
+        "name": "The Revenant",
+        "tur": "Western",
+        "img": "/images/the_revenant.png",
+        "year": "2015",
+        "director": "Alejandro González Iñárritu",
+        "players": "Leonardo DiCaprio, Tom Hardy, Domhnall Gleeson",
+        "description": "19. yüzyılın Amerika'sında geçen hikaye, keşif gezisinde yaralanan kürk tüccarı Hugh Glass'in hayatta kalma mücadelesini anlatır. Vahşi doğada acımasız koşullarla karşılaşan Glass, intikam arayışı içinde uzun bir yolculuğa çıkar. Doğa, insanlık ve hayatta kalma temasının yoğun şekilde işlendiği etkileyici bir yapımdır. Leonardo DiCaprio'nun Oscar kazandığı film, unutulmaz sahneleriyle dikkat çeker."
+    }
+]

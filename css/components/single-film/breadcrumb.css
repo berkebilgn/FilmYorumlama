@@ -1,0 +1,20 @@
+.single-film .breadcrumb ul{
+    display: flex;
+}
+.single-film .breadcrumb ul li{
+    font-size: 12px;
+    margin: 0 5px;
+}
+
+.single-film .breadcrumb ul li:not(:last-child):after{
+    content: "/";
+    color: #dee0ea;
+    margin: 0 5px;
+}
+
+.single-film .breadcrumb ul li a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+
+

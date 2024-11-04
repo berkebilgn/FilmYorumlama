@@ -1,0 +1,30 @@
+.tur {
+        margin: 40px 0;
+}
+
+.tur .tur-list {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        margin-top: 30px; 
+}
+
+.tur .tur-item {
+        background-color: #1367ef;
+        border-radius: 10px;
+        flex: 1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.tur .tur-item a {
+        color: #fff;
+        display: inline-block;
+        padding: 7px;
+        text-align: center;
+        margin: 5px 0;
+        font-size: 14px;
+        font-weight: 500;
+}
